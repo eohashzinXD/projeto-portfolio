@@ -231,7 +231,7 @@ span{
 }
 
 .html{
-    width: 45%;
+    width: 90%;
     animation: html 3s;
 }
 
@@ -241,13 +241,18 @@ span{
 }
 
 .css{
-    width: 45%;
+    width: 75%;
     animation: css 3s;
 }
 
 .php{
-    width: 10%;
+    width: 5%;
     animation: php 3s;
+}
+
+.c{
+    width: 25%;
+    animation: c 3s;
 }
 
 .contact h2{
@@ -304,7 +309,7 @@ span{
         width: 0%;
     }
     100%{
-        width: 45%;
+        width: 90%;
     }
 }
 
@@ -313,7 +318,7 @@ span{
         width: 0%;
     }
     100%{
-        width: 45%;
+        width: 75%;
     }
 }
 
@@ -331,6 +336,15 @@ span{
         width: 0%;
     }
     100%{
-        width: 10%;
+        width: 5%;
+    }
+}
+
+@keyframes c{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 25%;
     }
 }
